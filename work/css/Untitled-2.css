@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+a:link{ color:#060000} a:visited{ color: #999} a:hover{ color: #F00} a:active{ color: #0F0}
+.container{ background:RGB(0,0,0); font-family:隶书; font-size:30px; color:#D9E513; text-align:center; }
+#nav{ background:RGB(255,255,255); font-family:隶书; font-size:40px; color:#D9E513;}
+.df a:hover{ color:#00f; background-color:#999}
+.submenu{ display:none;}
+ul li:hover .submenu{display:block;}
+.topimg{ margin-top:200px; padding-left:23%;}
+.topimg img{height:300px;width:950px;}
+#contain{ width:950px; height:1120px;background:rgb(0,0,0,0.5); margin:0px auto;}
+#contain ul li{ list-style:none;float:left; width:180px; height:105px;  margin:20px 20px;font-family:微软雅黑;color: #000; font-weight:bolder; text-align:center;}
+#contain ul li img{width:100%;height: 100%}
+.img:hover{border:5px solid #900}
+
+
+@media screen and (max-width:768px) {
+	.container h1{
+		font-size: 24px;
+	}
+	.topimg{
+		padding-left:0;
+		margin-top: 10px;
+	}
+	.topimg img{
+		width: 100%;
+		height: auto;
+	}
+	#contain{
+		width: 100%;
+	}
+	#contain ul{
+		padding: 0 20px;
+	}
+	#contain ul li{
+		width: 100%;
+		margin: 20px 0;
+		height: auto;
+	}
+	#contain ul li img{
+		width: 100%;
+	}
+}
+
+
+
+
